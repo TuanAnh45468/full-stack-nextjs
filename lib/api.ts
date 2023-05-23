@@ -4,7 +4,7 @@ const fetcher = async ({ url, method, body, json = true }) => {
     body: body && JSON.stringify(body),
     headers: {
       Accept: "application/json",
-      "Content-type": "applicationjson",
+      "Content-type": "application/json",
     },
   });
 
